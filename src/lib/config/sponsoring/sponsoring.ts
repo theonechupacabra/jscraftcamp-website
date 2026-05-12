@@ -38,7 +38,7 @@ export const sponsors: Sponsor[] = [
 	},
 	{
 		image: saab,
-		link: 'https://www.saab.com',
+		link: 'https://www.saab.com/de/markets/germany',
 		name: 'Saab',
 		sponsoring: 'Breakfast'
 	},
