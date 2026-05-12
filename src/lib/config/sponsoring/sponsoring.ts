@@ -3,6 +3,7 @@ import tng from './logos/tng.svg';
 import stackForge from './logos/stack-forge.svg';
 import inovex from './logos/inovex-logo.png';
 import scalable from './logos/scalable.svg';
+import saab from './logos/saab-white.svg';
 import composeUs from './logos/compose-us-white.svg';
 import inspiredconsulting from './logos/inspired-consulting.svg';
 import peerigon from './logos/peerigon_white.svg';
@@ -34,6 +35,12 @@ export const sponsors: Sponsor[] = [
 		link: 'https://scalable.capital',
 		name: 'Scalable Capital',
 		sponsoring: 'Lunch'
+	},
+	{
+		image: saab,
+		link: 'https://www.saab.com',
+		name: 'Saab',
+		sponsoring: 'Breakfast'
 	},
 	{
 		image: composeUs,
