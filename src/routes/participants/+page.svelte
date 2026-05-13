@@ -165,7 +165,7 @@
 					</div>
 				{/if}
 				<ul class="m-0 grid list-none grid-cols-[repeat(auto-fill,minmax(14rem,1fr))] gap-6 p-0">
-					{#each participants.filter($participantsFilter) as participant (participant.githubAccountName ?? displayName(participant))}
+					{#each participants.filter($participantsFilter) as participant (participant)}
 						<li class="pl-0">
 							<Participant
 								{participant}
