@@ -1,0 +1,25 @@
+{
+	"realName": {
+		"givenName": "Jan",
+		"familyName": "Schmidle",
+		"placeFamilyNameFirst": false,
+		"hideFamilyNameOnWebsite": true
+	},
+	"company": "essentim GmbH",
+	"when": {
+		// June 12th, 2026
+		"friday": true,
+		// June 13th, 2026
+		"saturday": true
+	},
+	"iCanTakeNotesDuringSessions": false,
+	// your current interests (JS and in general) (required)
+	"tags": ["nodejs", "deno", "k8s", "cra", "meshcore", "security", "IoT"],
+	"whatIsMyConnectionToJavascript": "my go to glue",
+	"whatCanIContribute": "Talk about security or meshcore or ...",
+	// if you want a T-Shirt we need your size and variant preference (optional)
+	// the following sizes are available: S, M, L, XL, 2XL, 3XL (only regular cut)
+	"tShirtSize": "L",
+	"linkedin": "https://www.linkedin.com/in/jschmidle/",
+	"website": "https://www.essentim.com"
+}
