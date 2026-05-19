@@ -1,0 +1,21 @@
+// vim: ft=jsonc
+{
+  "realName": {
+    "givenName": "Ines",
+    "familyName": "Akrap"
+  },
+  "githubAccountName": "ines-akrap",
+  "company": "inesakrap.com",
+  "when": {
+    "friday": true,
+    "saturday": true
+  },
+  "iCanTakeNotesDuringSessions": true,
+  "tags": ["WebPerformance", "SustainableWeb", "ProgressiveEnhancement", "TechBookAuthoring", "CoreWebVitals", "W3Cstandards", "Composables", "HeadlessCMS", "WebsiteAudits"],
+  "vegan": false,
+  "vegetarian": false,
+  "whatIsMyConnectionToJavascript": "Frontend engineer 10+ years. Solutions Engineer at Storyblok. GDE in web performance, co-chair of W3C Sustainable Web, book author. Love deleting JS as much as writing it :)",
+  "whatCanIContribute": "Sessions on building sustainable web, web performance (audit, CWV, ...), progressive enhancement, working on standards for web, writing a tech book, ...",
+  "linkedin": "https://www.linkedin.com/in/ines-akrap/",
+  "website": "https://inesakrap.com"
+}
