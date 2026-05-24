@@ -1,0 +1,21 @@
+{
+	"realName": {
+		"givenName": "Stefan",
+		"familyName": "Hoferer",
+		"placeFamilyNameFirst": false,
+		"hideFamilyNameOnWebsite": false
+	},
+	"company": "Zentur.io",
+	"when": {
+		"friday": false,
+		"saturday": true
+	},
+	"iCanTakeNotesDuringSessions": false,
+	"tags": ["NextJs", "Compiler", "TypeScript", "Infrastructure", "Cloud compatibility"],
+	"vegan": false,
+	"vegetarian": false,
+	"whatIsMyConnectionToJavascript": "Daily life when writing code",
+	"whatCanIContribute": "Knowledge and experience running Javascript in the Cloud",
+	"tShirtSize": "3XL",
+	"linkedin": "https://www.linkedin.com/in/stefan-54b9651b2/"
+}
