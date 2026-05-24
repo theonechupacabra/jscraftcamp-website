@@ -1,0 +1,26 @@
+{
+	"realName": {
+		"givenName": "Alexander",
+		"familyName": "Friedl",
+		"placeFamilyNameFirst": false,
+		"hideFamilyNameOnWebsite": false
+	},
+	"githubAccountName": "alex-all3dp",
+	"codebergAccountName": "",
+	"company": "All3DP GmbH",
+	"when": {
+		"friday": true,
+		"saturday": false
+	},
+	"iCanTakeNotesDuringSessions": false,
+	"tags": ["node.js", "Nestjs", "AWS"],
+	"vegan": false,
+	"vegetarian": false,
+	"allergies": [],
+	"whatIsMyConnectionToJavascript": "I've been working with JS/TS professionally for 15 years and is still the primary language in my daily work.",
+	"whatCanIContribute": "Sharing knowledge and experience on using JS/TS in production",
+	"tShirtSize": "L",
+	"mastodon": "",
+	"linkedin": "",
+	"X": ""
+}
