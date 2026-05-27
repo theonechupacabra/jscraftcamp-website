@@ -45,7 +45,6 @@
 		repeatCount > 0 ? Array(repeatCount).fill(baseSponsors).flat() : []
 	);
 
-	const scrollDuration = $derived(`${Math.max(70, baseSponsors.length * 11)}s`);
 	const sponsorScrollSeconds = $derived(Math.max(28, baseSponsors.length * 2.5));
 	const thankYouScrollSeconds = 120;
 </script>
