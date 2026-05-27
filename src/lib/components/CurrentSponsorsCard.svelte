@@ -46,6 +46,8 @@
 	);
 
 	const scrollDuration = $derived(`${Math.max(70, baseSponsors.length * 11)}s`);
+	const sponsorScrollSeconds = $derived(Math.max(28, baseSponsors.length * 2.5));
+	const thankYouScrollSeconds = 120;
 </script>
 
 <Card
@@ -55,7 +57,10 @@
 	)}
 >
 	<div class="scroll-container w-full overflow-hidden py-1">
-		<div class="flex w-max animate-scroll-left items-center gap-8">
+		<div
+			class="flex w-max animate-scroll-left items-center gap-8"
+			style="animation: scroll-left {thankYouScrollSeconds}s linear infinite"
+		>
 			{#each duplicatedTranslations as text, i (`${text}-${i}`)}
 				<span
 					class="text-xs font-medium tracking-wide whitespace-nowrap uppercase {i % 2 === 1
@@ -75,8 +80,8 @@
 		>
 			<div
 				class="flex w-max animate-scroll-right cursor-grab touch-pan-y items-center select-none"
-				style="--scroll-right-animation-duration: {scrollDuration}"
-				data-duration={scrollDuration.replace('s', '')}
+				style="animation: scroll-right {sponsorScrollSeconds}s linear infinite"
+				data-duration={sponsorScrollSeconds}
 				use:dragScroll
 			>
 				{#if isSmallCount}
