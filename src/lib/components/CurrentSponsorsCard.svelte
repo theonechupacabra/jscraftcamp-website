@@ -45,7 +45,7 @@
 		repeatCount > 0 ? Array(repeatCount).fill(baseSponsors).flat() : []
 	);
 
-	const scrollDuration = $derived(`${Math.max(10, baseSponsors.length * 2.5)}s`);
+	const scrollDuration = $derived(`${Math.max(70, baseSponsors.length * 11)}s`);
 </script>
 
 <Card
