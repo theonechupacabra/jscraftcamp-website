@@ -21,9 +21,9 @@
 	// If you cannot make one of the days, please set it to false, to allow someone else take that spot!
 	"when": {
 		// June 12th, 2026
-		"friday": true,
+		"friday": false,
 		// June 13th, 2026
-		"saturday": false
+		"saturday": true
 	},
 	// if you are willing to take session notes and publish them to github (required)
 	"iCanTakeNotesDuringSessions": true,
@@ -36,7 +36,7 @@
 	// what you cannot eat or drink (optional); If you don't want to put it in here, message the organizers.
 	// IMPORTANT: we cannot guarantee that food for every diet will be available,
 	//            if you have gluten free diet, please make backup plans.
-	"allergies": [""],
+	"allergies": [],
 	// tell us a few words how JavaScript affects you (required)
 	"whatIsMyConnectionToJavascript": "I build daily with Javascript",
 	// what can you contribute to the bar camp (required)
