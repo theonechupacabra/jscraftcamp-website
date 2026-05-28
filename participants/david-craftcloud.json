@@ -1,0 +1,27 @@
+{
+	"realName": {
+		"givenName": "David",
+		"familyName": "Farkas",
+		"placeFamilyNameFirst": false,
+		"hideFamilyNameOnWebsite": false
+	},
+	"githubAccountName": "david-craftcloud",
+	"codebergAccountName": "",
+	"company": "All3DP GmbH",
+	"when": {
+		"friday": true,
+		"saturday": false
+	},
+	"iCanTakeNotesDuringSessions": false,
+	"tags": ["TypeScript", "Nestjs", "Claude"],
+	"vegan": false,
+	"vegetarian": false,
+	"allergies": [],
+	"whatIsMyConnectionToJavascript": "It is my primary programming language for work and personal stuff",
+	"whatCanIContribute": "Sharing development experience",
+	"tShirtSize": "L",
+	"mastodon": "",
+	"linkedin": "",
+	"X": "",
+	"website": "https://craftcloud3d.com"
+}
