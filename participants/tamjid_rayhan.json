@@ -1,0 +1,21 @@
+{
+	"realName": {
+		"givenName": "Md Tamjid",
+		"familyName": "Rayhan",
+		"placeFamilyNameFirst": false,
+		"hideFamilyNameOnWebsite": false
+	},
+	"company": "ruhrdot.com",
+	"when": {
+		"friday": true,
+		"saturday": true
+	},
+	"iCanTakeNotesDuringSessions": false,
+	"tags": ["Nodejs", "React", "Asynchronous Programming", "TypeScript", "Infrastructure as code", "CI/CD"],
+	"vegan": false,
+	"vegetarian": false,
+	"whatIsMyConnectionToJavascript": "Write and review code in React and Owljs applications",
+	"whatCanIContribute": "Create and design React applications",
+	"tShirtSize": "L",
+	"linkedin": "https://www.linkedin.com/in/md-tamjid-rayhan/"
+}
