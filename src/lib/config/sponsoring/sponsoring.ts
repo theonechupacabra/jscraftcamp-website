@@ -9,6 +9,7 @@ import inspiredconsulting from './logos/inspired-consulting.svg';
 import peerigon from './logos/peerigon_white.svg';
 import pastely from './logos/pastely.svg';
 import tiffingerthiel from './logos/tiffinger-thiel.svg';
+import twilio from './logos/twilio.svg';
 import type { Sponsor } from './types';
 import { normalizeCompanyKey } from '$lib/participants/normalize-company';
 
@@ -85,6 +86,12 @@ export const sponsors: Sponsor[] = [
 		name: 'Tiffinger & Thiel GmbH',
 		sponsoring: 'Pizza',
 		scrollingMaxWidth: 'max-w-68'
+	},
+	{
+		image: twilio,
+		link: 'https://twilio.com/',
+		name: 'Twilio',
+		sponsoring: 'Snacks'
 	}
 	// {
 	// 	image: codecentric,
@@ -142,12 +149,6 @@ export const sponsors: Sponsor[] = [
 	// 	sponsoring: 'Breakfast & Energy Drinks'
 	// },
 
-	// {
-	// 	image: twilio,
-	// 	link: 'https://twilio.com/',
-	// 	name: 'Twilio',
-	// 	sponsoring: '1.500 $'
-	// },
 	// {
 	// 	image: typedigital,
 	// 	link: 'https://typedigital.de',
