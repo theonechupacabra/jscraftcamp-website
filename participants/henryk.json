@@ -1,0 +1,27 @@
+{
+	"realName": {
+		"givenName": "Henry",
+		"familyName": "Kalla",
+		"placeFamilyNameFirst": false,
+		"hideFamilyNameOnWebsite": true
+	},
+	"githubAccountName": "henry-knauf",
+	"codebergAccountName": "",
+	"company": "Knauf Digital GmbH",
+	"when": {
+		"friday": true,
+		"saturday": false
+	},
+	"iCanTakeNotesDuringSessions": false,
+	"tags": ["node.js", "Nestjs", "Azure"],
+	"vegan": false,
+	"vegetarian": false,
+	"allergies": [],
+	"whatIsMyConnectionToJavascript": "JS has been with me for 2 decades and is now part of my daily work.",
+	"whatCanIContribute": "Sharing knowledge on using JS in production.",
+	"tShirtSize": "M",
+	"mastodon": "",
+	"linkedin": "",
+	"X": "",
+	"website": "https://www.knauf.com"
+}
