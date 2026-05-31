@@ -1,0 +1,25 @@
+{
+	"realName": {
+		"givenName": "Johannes",
+		"familyName": "Loher",
+		"placeFamilyNameFirst": false,
+		"hideFamilyNameOnWebsite": false
+	},
+	"githubAccountName": "ghost91-",
+	"company": "TNG Technology Consulting GmbH",
+	"when": {
+		"friday": true,
+		"saturday": true
+	},
+	"iCanTakeNotesDuringSessions": false,
+	"tags": ["TypeScript", "AI", "LLMs", "local inference", "selfhosting"],
+	"vegan": false,
+	"vegetarian": false,
+	"allergies": [],
+	"whatIsMyConnectionToJavascript": "Working with it daily, both at work, and for fun",
+	"whatCanIContribute": "Anything TypeScript. Software Architecture. Agentic Engineering. Running LLMs locally. Vitest browser tests",
+	"tShirtSize": "M",
+	"linkedin": "https://www.linkedin.com/in/johannes-loher-062809191/",
+	"X": "loherj",
+	"website": "https://www.johannesloher.com"
+}
