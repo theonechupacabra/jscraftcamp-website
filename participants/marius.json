@@ -1,0 +1,23 @@
+{
+	"realName": {
+		"givenName": "Marius",
+		"familyName": "Kleidl",
+	},
+	"githubAccountName": "Acconut",
+	"company": "GetStream.io",
+	"when": {
+		// June 12th, 2026
+		"friday": false,
+		// June 13th, 2026
+		"saturday": true
+	},
+	"iCanTakeNotesDuringSessions": false,
+	"tags": ["Node.js", "TypeScript", "Open Source"],
+	"vegan": false,
+	"vegetarian": false,
+	"whatIsMyConnectionToJavascript": "I'm a backend engineer and had been using Node.js for many years.",
+	"whatCanIContribute": "I maintain libraries for resumable file uploads (https://tus.io). Happy to hold a presentation about this.",
+	"mastodon": "https://mastodon.social/@acconut",
+	"linkedin": "https://www.linkedin.com/in/marius-kleidl",
+	"website": "https://mariuskleidl.net/"
+}
