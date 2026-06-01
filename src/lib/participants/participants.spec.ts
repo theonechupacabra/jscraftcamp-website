@@ -1,7 +1,39 @@
 import { describe, it, expect } from 'vitest';
-import { readdir } from 'node:fs/promises';
+import { readdir, readFile } from 'node:fs/promises';
+import {
+	getLocation,
+	parse,
+	printParseErrorCode,
+	type ParseError
+} from 'jsonc-parser';
 import { loadParticipantJsonFilePaths, parseParticipantJson } from './participants';
 import { PARTICIPANTS_DIRECTORY } from './participant-schema';
+
+const JSONC_PARSE_OPTIONS = { allowTrailingComma: true } as const;
+
+function formatParseErrors(text: string, errors: ParseError[]): string {
+	return errors
+		.map((error) => {
+			const location = getLocation(text, error.offset);
+			const path = location.path.length > 0 ? location.path.join('.') : 'root';
+			return `${path}: ${printParseErrorCode(error.error)}`;
+		})
+		.join(', ');
+}
+
+async function assertValidParticipantJson(filePath: string) {
+	const text = await readFile(filePath, 'utf-8');
+	const parseErrors: ParseError[] = [];
+	parse(text, parseErrors, JSONC_PARSE_OPTIONS);
+
+	if (parseErrors.length > 0) {
+		throw new Error(
+			`JSON syntax error in '${filePath}': ${formatParseErrors(text, parseErrors)}`
+		);
+	}
+
+	return parseParticipantJson(filePath);
+}
 
 describe('Participants', async () => {
 	const folderContent = await readdir(PARTICIPANTS_DIRECTORY, {
@@ -35,10 +67,10 @@ describe('Participants', async () => {
 
 	for (const participantFile of participantJsonPaths) {
 		describe('parseParticipants', async () => {
-			it(`should parse '${participantFile}' without validation error`, async () => {
+			it(`should parse '${participantFile}' without syntax or validation error`, async () => {
 				let error: string | null = null;
 				try {
-					await parseParticipantJson(participantFile);
+					await assertValidParticipantJson(participantFile);
 				} catch (err) {
 					error = (err as Error).message;
 					console.error(error);

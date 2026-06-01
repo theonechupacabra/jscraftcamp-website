@@ -27,7 +27,7 @@
     "Vanilla JS",
     "Elixir",
     "Postgres"
-  ]
+  ],
   // if you only eat vegan food (optional)
   "vegan": false,
   // if you only eat vegan or vegetarian food (optional)
