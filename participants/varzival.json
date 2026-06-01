@@ -1,0 +1,22 @@
+{
+	"realName": {
+		"givenName": "Vadim",
+		"familyName": "Neumann",
+		"placeFamilyNameFirst": false,
+		"hideFamilyNameOnWebsite": false
+	},
+	"githubAccountName": "varzival",
+	"company": "Knauf Digital",
+	"when": {
+		"friday": true,
+		"saturday": false
+	},
+	"iCanTakeNotesDuringSessions": false,
+	"tags": ["React", "Next.js", "PixiJS", "NestJS"],
+	"vegan": false,
+	"vegetarian": false,
+	"whatIsMyConnectionToJavascript": "JavaScript? No connection. I use TypeScript.",
+	"whatCanIContribute": "If there is interest in PixiJS, I can share my experience.",
+	"tShirtSize": "L",
+	"linkedin": "https://www.linkedin.com/in/vadim-neumann-8ba230224/"
+}
