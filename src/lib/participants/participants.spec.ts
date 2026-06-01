@@ -1,11 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { readdir, readFile } from 'node:fs/promises';
-import {
-	getLocation,
-	parse,
-	printParseErrorCode,
-	type ParseError
-} from 'jsonc-parser';
+import { getLocation, parse, printParseErrorCode, type ParseError } from 'jsonc-parser';
 import { loadParticipantJsonFilePaths, parseParticipantJson } from './participants';
 import { PARTICIPANTS_DIRECTORY } from './participant-schema';
 
@@ -27,9 +22,7 @@ async function assertValidParticipantJson(filePath: string) {
 	parse(text, parseErrors, JSONC_PARSE_OPTIONS);
 
 	if (parseErrors.length > 0) {
-		throw new Error(
-			`JSON syntax error in '${filePath}': ${formatParseErrors(text, parseErrors)}`
-		);
+		throw new Error(`JSON syntax error in '${filePath}': ${formatParseErrors(text, parseErrors)}`);
 	}
 
 	return parseParticipantJson(filePath);
