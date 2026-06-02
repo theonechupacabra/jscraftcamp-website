@@ -1,0 +1,25 @@
+// vim: ft=jsonc
+{
+	"realName": {
+		"givenName": "Oleksandr",
+		"familyName": "Markovskyi",
+		"placeFamilyNameFirst": false,
+		"hideFamilyNameOnWebsite": false
+	},
+	"githubAccountName": "Oleksandr-Markovskyi",
+	"codebergAccountName": "",
+	"company": "ThaloxSphere GmbH",
+	"when": {
+		"friday": true,
+		"saturday": true
+	},
+	"iCanTakeNotesDuringSessions": true,
+	"tags": ["TypeScript", "NestJS", "Next.js", "PostgreSQL", "Self-Hosting", "AI/LLM tooling"],
+	"vegan": false,
+	"vegetarian": false,
+	"allergies": [],
+	"whatIsMyConnectionToJavascript": "JavaScript/TypeScript is the backbone of everything I build. As a full-stack developer I run several commercial SaaS products end-to-end on a TS stack — NestJS on the backend, Next.js on the frontend, PostgreSQL and Redis underneath.",
+	"whatCanIContribute": "",
+	"tShirtSize": "XL",
+	"linkedin": "https://www.linkedin.com/in/oleksandr-markovskyi/"
+}
