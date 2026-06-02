@@ -18,8 +18,8 @@
 	"vegan": false,
 	"vegetarian": false,
 	"allergies": [],
-	"whatIsMyConnectionToJavascript": "JavaScript/TypeScript is the backbone of everything I build. As a full-stack developer I run several commercial SaaS products end-to-end on a TS stack — NestJS on the backend, Next.js on the frontend, PostgreSQL and Redis underneath.",
-	"whatCanIContribute": "",
+	"whatIsMyConnectionToJavascript": "JS/TS is the backbone of everything I build. As a full-stack dev I run several commercial SaaS products end-to-end — NestJS backend, Next.js frontend, PostgreSQL and Redis underneath.",
+	"whatCanIContribute": "Hands-on experience with production SaaS on NestJS + Next.js, self-hosting on Hetzner (Cloudflare Zero Trust) and agentic dev workflows. Happy to host a session or talk shop over coffee.",
 	"tShirtSize": "XL",
 	"linkedin": "https://www.linkedin.com/in/oleksandr-markovskyi/"
 }
