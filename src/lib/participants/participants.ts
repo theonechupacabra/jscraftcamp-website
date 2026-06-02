@@ -4,12 +4,7 @@ import {
 	type Participant,
 	PARTICIPANTS_DIRECTORY
 } from '$lib/participants/participant-schema';
-import {
-	getLocation,
-	parse,
-	printParseErrorCode,
-	type ParseError
-} from 'jsonc-parser';
+import { getLocation, parse, printParseErrorCode, type ParseError } from 'jsonc-parser';
 import { join } from 'node:path';
 
 const JSONC_PARSE_OPTIONS = { allowTrailingComma: true } as const;
