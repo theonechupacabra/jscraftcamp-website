@@ -35,7 +35,7 @@ describe('Participants', async () => {
 
 	for (const participantFile of participantJsonPaths) {
 		describe('parseParticipants', async () => {
-			it(`should parse '${participantFile}' without validation error`, async () => {
+			it(`should parse '${participantFile}' without syntax or validation error`, async () => {
 				let error: string | null = null;
 				try {
 					await parseParticipantJson(participantFile);
