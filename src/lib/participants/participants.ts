@@ -4,8 +4,20 @@ import {
 	type Participant,
 	PARTICIPANTS_DIRECTORY
 } from '$lib/participants/participant-schema';
-import { parse } from 'jsonc-parser';
+import { getLocation, parse, printParseErrorCode, type ParseError } from 'jsonc-parser';
 import { join } from 'node:path';
+
+const JSONC_PARSE_OPTIONS = { allowTrailingComma: true } as const;
+
+function formatParseErrors(text: string, errors: ParseError[]): string {
+	return errors
+		.map((error) => {
+			const location = getLocation(text, error.offset);
+			const path = location.path.length > 0 ? location.path.join('.') : 'root';
+			return `\t${path}: ${printParseErrorCode(error.error)}`;
+		})
+		.join('\n');
+}
 
 export async function loadParticipantJsonFilePaths(directory: string): Promise<string[]> {
 	const participantsDirectory = await readdir(directory, {
@@ -47,7 +59,13 @@ export async function loadParticipants(filePaths: string[]): Promise<Participant
 
 export async function parseParticipantJson(filePath: string): Promise<Participant> {
 	const text = await readFile(filePath, 'utf-8');
-	const json = parse(text) as unknown;
+	const parseErrors: ParseError[] = [];
+	const json = parse(text, parseErrors, JSONC_PARSE_OPTIONS) as unknown;
+
+	if (parseErrors.length > 0) {
+		throw Error(`Invalid participant json '${filePath}':\n${formatParseErrors(text, parseErrors)}`);
+	}
+
 	const result = ParticipantSchema.safeParse(json);
 
 	if (!result.success) {
