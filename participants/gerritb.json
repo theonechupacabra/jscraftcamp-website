@@ -1,0 +1,25 @@
+{
+	"realName": {
+		"givenName": "Gerrit",
+		"familyName": "Buse",
+		"placeFamilyNameFirst": false,
+		"hideFamilyNameOnWebsite": true
+	},
+	"githubAccountName": "jscraftcamp",
+	"company": "TNG Technology Consulting GmbH",
+	"when": {
+		"friday": true,
+		"saturday": true
+	},
+	// if you are willing to take session notes and publish them to github (required)
+	"iCanTakeNotesDuringSessions": true,
+	// your current interests (JS and in general) (required)
+	"tags": ["Angular", "React", "ReScript", "TypeScript", "NodeJS", "Next.js"],
+	"vegan": false,
+	"vegetarian": true,
+	// tell us a few words how JavaScript affects you (required)
+	"whatIsMyConnectionToJavascript": "In my work as a software consultant in client projects, I have been building and operating several single page applications and used Node.js, Next.js and Express.js in backends. As I enjoy working with JavaScript and TypeScript very much, I also use it in private projects.",
+	// what can you contribute to the bar camp (required)
+	"whatCanIContribute": "I come with several years of professional experience in full stack development. I love to exchange over current trends in technology and am happy to engage in discussions from rising technoligies, to proven concepts & best practices as well as effective testing.",
+	"linkedin": ""
+}
