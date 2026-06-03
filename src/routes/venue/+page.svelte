@@ -4,6 +4,7 @@
 	import VenueSearchCard from '$lib/components/VenueSearchCard.svelte';
 	import { venueConfig } from '$lib/config/venue';
 	import Content from '$lib/layout/Content.svelte';
+	import { MapLibre, Marker, NavigationControl } from 'svelte-maplibre-gl';
 </script>
 
 <PageLayout>
@@ -37,6 +38,18 @@
 						<a href={venueConfig.impressionsLink} rel="external noopener noreferrer">here</a>.
 					</p>
 				{/if}
+			</Card>
+
+			<Card>
+				<MapLibre
+					style="/map-style.json"
+					zoom={15}
+					center={{ lng: 11.654745, lat: 48.185987 }}
+					class="h-100 w-full rounded"
+				>
+					<NavigationControl />
+					<Marker lnglat={{ lng: 11.654745, lat: 48.185987 }} color="#b06bff" />
+				</MapLibre>
 			</Card>
 
 			{#if venueConfig.entryInfo}
