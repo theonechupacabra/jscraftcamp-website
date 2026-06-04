@@ -40,17 +40,19 @@
 				{/if}
 			</Card>
 
-			<Card>
-				<MapLibre
-					style="/map-style.json"
-					zoom={15}
-					center={{ lng: 11.654745, lat: 48.185987 }}
-					class="h-100 w-full rounded"
-				>
-					<NavigationControl />
-					<Marker lnglat={{ lng: 11.654745, lat: 48.185987 }} color="#b06bff" />
-				</MapLibre>
-			</Card>
+			{#if venueConfig.coordinates}
+				<Card>
+					<MapLibre
+						style="/map-style.json"
+						zoom={15}
+						center={venueConfig.coordinates}
+						class="h-100 w-full rounded"
+					>
+						<NavigationControl />
+						<Marker lnglat={venueConfig.coordinates} color="#b06bff" />
+					</MapLibre>
+				</Card>
+			{/if}
 
 			{#if venueConfig.entryInfo}
 				<Card>

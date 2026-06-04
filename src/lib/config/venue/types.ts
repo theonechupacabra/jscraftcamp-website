@@ -17,6 +17,9 @@ export interface VenueConfig {
 	/** Venue address details (only used when noVenueAvailable is false) */
 	address?: VenueAddress;
 
+	/** WSG84 coordinates of venue */
+	coordinates?: { lng: number; lat: number };
+
 	/** Optional link to venue impressions/photos */
 	impressionsLink?: string;
 
