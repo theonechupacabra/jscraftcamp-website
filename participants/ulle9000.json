@@ -37,7 +37,7 @@
 	// tell us a few words how JavaScript affects you (required)
 	"whatIsMyConnectionToJavascript": "TC39 delegate, i.e. working on the language itself and I own and run a consultant company for all JS things; host of a 10-year+ running JS MeetUp in Dresden",
 	// what can you contribute to the bar camp (required)
-	"whatCanIContribute": "I have multiple presentations (code poetry, TS-based contracts, [ab]using new language features) ready that are AI-free and I can talk about a very funny JS-inspired X-state based DosBox-powered Mortal Kombat quiz fighting game. Oh and I can (try to) answer any TC39-related stuff, about upcoming JS features...",
+	"whatCanIContribute": "I can haz prezzies: (code poetry, TS-based contracts, [ab]using new language features) with NoAI and AmA about TC39 or All your base are belong to Mortal Kombat JS Quiz with DosBox in Brauser",
 	// if you want a T-Shirt we need your size and variant preference (optional)
 	// the following sizes are available: S, M, L, XL, 2XL, 3XL (only regular cut)
 	"tShirtSize": "M",
