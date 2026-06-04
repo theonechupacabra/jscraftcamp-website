@@ -1,0 +1,25 @@
+{
+	"realName": {
+		"givenName": "Gerrit",
+		"familyName": "Buse",
+		"placeFamilyNameFirst": false,
+		"hideFamilyNameOnWebsite": true
+	},
+	"githubAccountName": "theonechupacabra",
+	"company": "TNG Technology Consulting GmbH",
+	"when": {
+		"friday": true,
+		"saturday": true
+	},
+	// if you are willing to take session notes and publish them to github (required)
+	"iCanTakeNotesDuringSessions": true,
+	// your current interests (JS and in general) (required)
+	"tags": ["Angular", "React", "ReScript", "TypeScript", "NodeJS", "Next.js"],
+	"vegan": false,
+	"vegetarian": true,
+	// tell us a few words how JavaScript affects you (required)
+	"whatIsMyConnectionToJavascript": "As a software consultant I've built and operated several single page apps and used Node.js, Next.js and Express.js in backends. I enjoy JavaScript and TypeScript and use them privately too.",
+	// what can you contribute to the bar camp (required)
+	"whatCanIContribute": "I bring several years of professional full stack experience. I love discussing current tech trends — from rising technologies to proven concepts, best practices and effective testing.",
+	"linkedin": ""
+}
