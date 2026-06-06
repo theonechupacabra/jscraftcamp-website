@@ -1,0 +1,52 @@
+{
+	// your real name (required by location host)
+	"realName": {
+		"givenName": "Christian",
+		"familyName": "Ulbrich",
+		// if you prefer to have your family name shown first (optional)
+		"placeFamilyNameFirst": false,
+		// if you do not want to show your family name on the participant list (optional)
+		"hideFamilyNameOnWebsite": false
+	},
+	// please put in the account name of the PR creator, if you sign up somebody else
+	"githubAccountName": "christianulbrich",
+	// your Codeberg account name (optional)
+	"codebergAccountName": "",
+	// company name (optional)
+	"company": "Zalari GmBH",
+	// either both days or at least one day has to be set to true.
+	// If you cannot make one of the days, please set it to false, to allow someone else take that spot!
+	"when": {
+		// June 12th, 2026
+		"friday": true,
+		// June 13th, 2026
+		"saturday": true
+	},
+	// if you are willing to take session notes and publish them to github (required)
+	"iCanTakeNotesDuringSessions": false,
+	// your current interests (JS and in general) (required)
+	"tags": ["Javascript", "TC39", "Meta-Programming", "TypeScript", "Software Architecture", "code poetry", "cooking", "ultimate frisbee"],
+	// if you only eat vegan food (optional)
+	"vegan": false,
+	// if you only eat vegan or vegetarian food (optional)
+	"vegetarian": false,
+	// what you cannot eat or drink (optional); If you don't want to put it in here, message the organizers.
+	// IMPORTANT: we cannot guarantee that food for every diet will be available,
+	//            if you have gluten free diet, please make backup plans.
+	"allergies": ["vegetarian food :)"],
+	// tell us a few words how JavaScript affects you (required)
+	"whatIsMyConnectionToJavascript": "TC39 delegate, i.e. working on the language itself and I own and run a consultant company for all JS things; host of a 10-year+ running JS MeetUp in Dresden",
+	// what can you contribute to the bar camp (required)
+	"whatCanIContribute": "I can haz prezzies: (code poetry, TS-based contracts, [ab]using new language features) with NoAI and AmA about TC39 or All your base are belong to Mortal Kombat JS Quiz with DosBox in Brauser",
+	// if you want a T-Shirt we need your size and variant preference (optional)
+	// the following sizes are available: S, M, L, XL, 2XL, 3XL (only regular cut)
+	"tShirtSize": "M",
+	// your Mastodon URL (optional)
+	"mastodon": "",
+	// your LinkedIn profile URL
+	"linkedin": "https://www.linkedin.com/in/only-christianulbrich/",
+	// your X (Twitter) handle - must match regex ^[a-zA-Z_]{1}[a-zA-Z0-9_]{0,14}$ (optional)
+	"X": "",
+	// your website URL or other social media (optional)
+	"website": "https://www.zalari.de"
+}
