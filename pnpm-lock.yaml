@@ -11,9 +11,6 @@ importers:
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
-      maplibre-gl:
-        specifier: ^5.24.0
-        version: 5.24.0
       tailwind-merge:
         specifier: ^3.4.0
         version: 3.4.0
@@ -63,6 +60,9 @@ importers:
       jsonc-parser:
         specifier: 3.3.1
         version: 3.3.1
+      maplibre-gl:
+        specifier: ^5.24.0
+        version: 5.24.0
       playwright:
         specifier: ^1.50.1
         version: 1.50.1
