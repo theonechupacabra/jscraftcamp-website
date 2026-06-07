@@ -6,6 +6,7 @@
 	import Content from '$lib/layout/Content.svelte';
 	import { MapLibre, Marker, NavigationControl } from 'svelte-maplibre-gl';
 	import { PMTilesProtocol } from '@svelte-maplibre-gl/pmtiles';
+	import 'maplibre-gl/dist/maplibre-gl.css';
 
 	// MapLibre GL JS requires the sprite URL to be absolute
 	// so we're downloading the style JSON and setting the sprite path manually
@@ -64,6 +65,7 @@
 								[11.55, 48.1],
 								[11.76, 48.27]
 							]}
+							autoloadGlobalCss={false}
 							class="h-100 w-full rounded"
 						>
 							<NavigationControl />
