@@ -5,7 +5,20 @@
 	import { venueConfig } from '$lib/config/venue';
 	import Content from '$lib/layout/Content.svelte';
 	import { MapLibre, Marker, NavigationControl } from 'svelte-maplibre-gl';
+	import { PMTilesProtocol } from '@svelte-maplibre-gl/pmtiles';
+
+	// MapLibre GL JS requires the sprite URL to be absolute
+	// so we're downloading the style JSON and setting the sprite path manually
+	async function loadStyle() {
+		const style = await fetch('/map/style.json').then((r) => r.json());
+		style.sprite = `${window.location.origin}/map/protomaps-basemap-assets/sprites/v4/light`;
+		return style;
+	}
+
+	const mapStyle = loadStyle();
 </script>
+
+<PMTilesProtocol />
 
 <PageLayout>
 	<Content>
@@ -41,16 +54,22 @@
 			</Card>
 
 			{#if venueConfig.coordinates}
-				<Card>
-					<MapLibre
-						style="/map-style.json"
-						zoom={15}
-						center={venueConfig.coordinates}
-						class="h-100 w-full rounded"
-					>
-						<NavigationControl />
-						<Marker lnglat={venueConfig.coordinates} color="#b06bff" />
-					</MapLibre>
+				<Card class="h-100">
+					{#await mapStyle then style}
+						<MapLibre
+							{style}
+							zoom={15}
+							center={venueConfig.coordinates}
+							maxBounds={[
+								[11.55, 48.1],
+								[11.76, 48.27]
+							]}
+							class="h-100 w-full rounded"
+						>
+							<NavigationControl />
+							<Marker lnglat={venueConfig.coordinates} color="#b06bff" />
+						</MapLibre>
+					{/await}
 				</Card>
 			{/if}
 

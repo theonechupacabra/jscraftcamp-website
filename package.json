@@ -40,6 +40,7 @@
 		"svelte": "^5.22.4",
 		"svelte-check": "^4.1.4",
 		"svelte-maplibre-gl": "^2.0.1",
+		"@svelte-maplibre-gl/pmtiles": "^2.0.1",
 		"tailwindcss": "^4.1.17",
 		"tslib": "2.8.1",
 		"tsx": "^4.19.3",
