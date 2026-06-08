@@ -12,6 +12,8 @@ export const venueConfig: VenueConfig = {
 		googleMapsLink: 'https://maps.app.goo.gl/D9bBawTWnVfgaMPG6'
 	},
 
+	coordinates: { lng: 11.654745, lat: 48.185987 },
+
 	impressionsLink: 'https://www.tngtech.com/ueber-uns/standorte/unterfoehring-deutschland/',
 
 	description: "This year's location will be at the TNG office in Munich (Unterföhring).",
