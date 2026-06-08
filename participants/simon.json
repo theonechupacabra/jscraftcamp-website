@@ -1,0 +1,39 @@
+// vim: ft=jsonc
+// Please provide your info in your own .json file.
+// See https://jscraftcamp.org/registration for more information
+{
+	// your real name (required by location host)
+	"realName": {
+		"givenName": "Simon",
+		"familyName": "Kindlein",
+		// if you prefer to have your family name shown first (optional)
+		"placeFamilyNameFirst": false,
+		// if you do not want to show your family name on the participant list (optional)
+		"hideFamilyNameOnWebsite": false
+	},
+	// please put in the account name of the PR creator, if you sign up somebody else
+	"githubAccountName": "Simonerus",
+	// company name (optional)
+	"company": "Cplace",
+	// either both days or at least one day has to be set to true.
+	// If you cannot make one of the days, please set it to false, to allow someone else take that spot!
+	"when": {
+		// June 12th, 2026
+		"friday": true,
+		// June 13th, 2026
+		"saturday": false
+	},
+	// if you are willing to take session notes and publish them to github (required)
+	"iCanTakeNotesDuringSessions": true,
+	// your current interests (JS and in general) (required)
+	"tags": ["Typescript", "Angular", "SDD", "Claude", "Domain Rediscovery"],
+	// if you only eat vegan or vegetarian food (optional)
+	"vegetarian": false,
+	"allergies": [],
+	// tell us a few words how JavaScript affects you (required)
+	"whatIsMyConnectionToJavascript": "Quiet literally my living.",
+	// what can you contribute to the bar camp (required)
+	"whatCanIContribute": "Share experiences in working with SDD, architectural discovery and of course lending a hand to help out onsite.",
+	// your LinkedIn profile URL
+	"linkedin": "https://www.linkedin.com/in/simon-kindlein/"
+}
