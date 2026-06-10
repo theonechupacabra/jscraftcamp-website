@@ -1,0 +1,40 @@
+{
+  "realName": {
+    "givenName": "Daniel",
+    "familyName": "Georgiev",
+    "placeFamilyNameFirst": false,
+    "hideFamilyNameOnWebsite": false
+  },
+
+  "githubAccountName": "danmax84",
+  "codebergAccountName": "",
+
+  "company": "",
+
+  "when": {
+    "friday": true,
+    "saturday": true
+  },
+
+  "iCanTakeNotesDuringSessions": true,
+
+  "tags": [
+    "Python",
+    "C#",
+    "JavaScript",
+    "AI Enthusiast",
+    "AI Agents",
+    "Beginner"
+  ],
+
+  "vegan": false,
+  "vegetarian": false,
+
+  "allergies": [],
+
+  "whatIsMyConnectionToJavascript": "I'm a beginner in JavaScript and currently learning the basics. My focus is more on Python, C#, and AI agents, but I want to improve my understanding of JavaScript.",
+
+  "whatCanIContribute": "I bring a beginner's perspective and have a strong interest in AI and agent systems. I can share experiences from Python and C# as well as my learning progress in JavaScript.",
+
+  "tShirtSize": "2XL"
+}
