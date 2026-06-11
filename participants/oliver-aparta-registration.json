@@ -1,0 +1,33 @@
+{
+  "realName": {
+    "givenName": "Oliver",
+    "familyName": "Aparta",
+    "placeFamilyNameFirst": false,
+    "hideFamilyNameOnWebsite": false
+  },
+  "githubAccountName": "Oliver-Aparta",
+  "codebergAccountName": "",
+  "company": "Aparta",
+  "when": {
+    "friday": false,
+    "saturday": true
+  },
+  "iCanTakeNotesDuringSessions": true,
+  "tags": [
+    "Agentic Coding",
+    "AI",
+    "Vibe Coding",
+    "Web Development",
+    "n8n"
+  ],
+  "vegan": false,
+  "vegetarian": false,
+  "allergies": [
+    "Gluten"
+  ],
+  "whatIsMyConnectionToJavascript": "I build web tools and automations with AI agents — mostly vibe coding my way through JavaScript.",
+  "whatCanIContribute": "Hands-on experience building agentic systems, AI-powered automations, and websites as a solo developer.",
+  "tShirtSize": "L",
+  "linkedin": "https://www.linkedin.com/in/oliver-aparta/",
+  "website": ""
+}
