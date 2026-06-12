@@ -15,6 +15,8 @@
 	import { eventConfig } from '$lib/config/event';
 	import type { PageData } from './$types';
 	import Content from '$lib/layout/Content.svelte';
+	import Card from '$lib/layout/Card.svelte';
+	import CtaLink from '$lib/components/CtaLink.svelte';
 
 	interface Props {
 		data: PageData;
@@ -56,6 +58,11 @@
 				slots={allTimeSlots}
 				registered={data.fridayParticipants}
 			/>
+			<Card class="text-center uppercase lg:col-span-3">
+				<CtaLink href="https://github.com/jscraftcamp/jscc2026#jscraftcamp-friday-sessions" external
+					>Friday Schedule</CtaLink
+				>
+			</Card>
 			<Timeline
 				class="min-h-48 lg:col-span-3"
 				agenda={saturdayAgenda}
