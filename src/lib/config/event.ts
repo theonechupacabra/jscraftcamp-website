@@ -35,7 +35,7 @@ export const eventConfig: EventConfig = {
 	startDate: new Date('2026-06-12T07:30:00Z'),
 	endDate: new Date('2026-06-13'),
 	registrationOpensAt: new Date('2026-04-13T07:00:00Z'),
-	registrationClosesAt: new Date('2026-06-11T12:00:00Z'),
+	registrationClosesAt: new Date('2026-06-13T23:59:59Z'),
 	fridayRegistrationOpen: false,
 	saturdayRegistrationOpen: false,
 	maxParticipantsPerDay: 100
